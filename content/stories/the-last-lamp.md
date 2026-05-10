@@ -1,43 +1,30 @@
 ---
-title: "The Last Lamp"
+title: ""
 date: 2026-04-12
 author: "Andres"
-genre: "Flash fiction"
-description: "A man discovers that the last working streetlamp in his neighborhood holds a secret he was never meant to find."
-tags: ["night", "mystery", "city"]
+title: El Ultimo Mensajero en la Tierra
+genre: "cuento"
+description: "En una galaxia lejana..."
+tags: ["ciencia ficcion"]
 draft: false
 ---
 
-The lamp on Calle Miraflores had been broken for eleven years. Everyone in the neighbourhood knew this. They had arranged their habits around its absence — walking faster past the pharmacy, keeping voices lower near the old pharmacy's locked gate, trusting the orange glow from the distant avenue to be enough.
+Son esos momentos, los que todo lo valen. En la ventana, mientras la estrella se hace cada vez más grande, el Mensajero se sacude el pesado sueño. Lentamente, la estrella roja, el planeta abandonado y la diminuta estación de carga entran en foco, y despacio, poco a poco, mientras va despertando y la conciencia de tiempo y lugar vuelven a él, mientras se van desenredando los protocolos en su cabeza y las instrucciones y manuales vuelven a su memoria, como un viejo himno aprendido en la infancia, lentamente vuelve el deseo de ver las cartas. Y hubiera seguido atrapado en esos sueños, de no ser por la alarma. La paz, a la que tan acostumbrado está, se ve interrumpida por el sonido de las alarmas y sirenas, las luces amarillas se tornan en parpadeantes luces rojas y la apacible vista del infinito, en problemas.
 
-Then one Tuesday in March, it came on.
+> Sistemas de acoplamiento comprometidos. Activar protocolo manual
 
-Sebastián noticed it first because he was the only one awake at that hour, sitting on his balcony with a glass of something cold and a headache he hadn't earned. The light was amber, slightly unsteady, the way old gas lamps used to breathe. He thought he was imagining things.
+La voz suena en la nave, y mientras el Mensajero se coloca la máscara de emergencia, se permite un instante para pensar. Un pensamiento fugaz, persistente, continuo. Piensa en el trayecto que no puede ser interrumpido, en su tarea. Afuera, gravedad y vectores de movimiento llevan la nave a sus destinos. El Mensajero detalla con paciencia los instrumentos, mientras el planeta, la estación y la estrella se van haciendo más notorios en su ventana, perdidos en la infinidad del vacío cósmico, silentes, inmutables. Extiende su mano, palpa con cuidado la caja, el viejo cartón en la punta de sus dedos, luego, se permite unos breves momentos de debilidad, la abre ligeramente y observa el sobre: _Para Laura, de Otra Tierra_
 
-He wasn't.
+No importa cuanta carga o tesoros hagan parte del manifiesto de la nave, son las cajas con las cartas lo que más importa del trabajo, que más que trabajo es una vida completa. De despertar entre sueños cariogénicos, de recibir instrucciones en los más remotos lugares del cinturón estelar, de las interacciones mediadas por pantallas tenues, voces espectrales, teclados analógicos que suenan quejumbrosos en cada pulsación, y cada estación de carga, cada parada, una nueva instrucción, un nuevo conjunto de vectores y símbolos que seguir en el cielo, un camino oscuro iluminado por estrellas que decaen y una larga tradición de Mensajeros cósmicos.
 
-He went downstairs in his slippers and stood beneath it, looking up at the halo it threw against the wet street. The rain had stopped an hour ago. The cobblestones were still dark with it.
+Las luces de emergencia están encendidas, la nave en rumbo de colisión. Con el sistema de acoplamiento comprometido, debe confiar en sus manos, esas mismas que llevan dormidas por años y que ahora le duelen en cada movimiento. Se aferra a los controles, que existen más como un símbolo de otro tiempo, todo piloto sabe de la improbabilidad de un acoplamiento manual. La estación, que antes apareciera en la ventana como un diminuto punto, se alza imponente en su ventana, en curso irremediable de colisión. Los enormes brazos metálicos girando como carrusel se mueven a gran velocidad y es en uno de esos brazos donde el puerto de acoplamiento le espera.
 
-There was a woman standing under the next lamp — one that had always worked — watching him.
+Respira. Sus pulmones, también están cansados de dormir, apenas y tienen tiempo de recordar esa sensación de oxígeno y exhalaciones. Se aferra al control, los músculos despiertan, eones de entrenamiento, sus manos ya no son humanas, son las manos de un Mensajero. Abre los ojos y la mente, y calcula, acelera una vez más y la vieja nave cruje bajo sus pies, aceptando con diligencia cada comando e instrucción, la danza de acoplamiento es sutil y delicada, un error y todo lo que quedará serán escombros que reciclar, se perderán para siempre las cartas. No puede permitirlo.
 
-*You found it*, she said. Not as a question.
+La danza mortífera continua. La nave está a pocos centímetros del puerto de acoplamiento. Pero el Mensajero sabe que pocos centímetros no son suficientes, estas operaciones solo toleran la perfección. Un empujón más, un cambio de velocidad sutil. El distintivo chasquido indica el final de la maniobra. Las luces de emergencia se apagan, cambiando de rojo a amarillo, las sirenas se han detenido también, sus pulmones, viejos y cansados pueden saborear el oxígeno, suspira.
 
-*I wasn't looking*, he said.
+Es en ese momento, que acoplado y a salvo en la estación puede ver la tragedia. En algún momento de la maniobra, el hangar principal de carga se ha abierto y ahora, flotando en el espacio, las cartas y toda la carga forman una espiral en torno a la estación, un anillo de materia que los robots de reciclaje algún día alcanzaran, pero que ahora es el recordatorio de una misión, de una vida fallida. Pasa saliva, observa la ventana, la estrella, el planeta árido, la estación girando y las decenas de miles de pequeños fragmentos desperdigados que reflejan como espejos caleidoscópicos las distantes luces estelares. Lloraría, si recordara como funcionan del todo sus ojos, si los sueños cósmicos no le hubieran secado de primitivas emociones y fluidos preciosos. Sin embargo, aquella danza de papeles y residuos, lenta e irreversible, le hace sentir una breve presión en el lugar que alguna vez ocupo su corazón.
 
-She crossed toward him slowly, as if the puddles were something to be respected rather than avoided. She was older than he'd thought from the balcony. Her coat was the colour of old wood.
+Le toma un momento recordar que no todo está perdido, a su lado en la cabina de mando, y contra todos los protocolos de la Asociación, la última caja. Es allí, bajo la sombra de una estrella incandescente, un cinturón de fragmentos y memorias perdidas en la eternidad, que decide romper su mandamiento. Toma el sobre, palpa el extraño material, suave, rugoso, lo rasga ligeramente y toma la carta. Para Laura, en Otra Tierra,  lee en voz alta, Que mis cartas siempre te encuentren, hasta el día que yo pueda hacerlo, Continúa el resto de la lectura en silencio. Al terminar, sus ojos han recordado la textura de las lágrimas.
 
-*It doesn't matter*, she said, *whether you were looking. It only comes on for the people who need it.*
-
-Sebastián looked up again at the amber light.
-
-*What do I need it for?*
-
-She smiled, and it was the kind of smile you give someone when they've asked a question you don't have to answer because they already know.
-
-*That*, she said, *is what you're going to find out.*
-
-She walked away into the dark between two lamps that weren't on. He stood there for another ten minutes, long enough for the cold to reach his feet through the thin soles of his slippers, and when he finally turned back toward his building, he knew that he would be back the following night.
-
-And the night after that.
-
-The lamp stayed on until morning. When he checked from the balcony at seven, it had gone out, just like all the others.
+La misión no puede concluir, aún debe visitar Otra Tierra.
