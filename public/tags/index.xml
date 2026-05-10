@@ -15,26 +15,5 @@
       <guid>http://localhost:1313/tags/ciencia-ficcion/</guid>
       <description></description>
     </item>
-    <item>
-      <title>City</title>
-      <link>http://localhost:1313/tags/city/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/city/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mystery</title>
-      <link>http://localhost:1313/tags/mystery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mystery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Night</title>
-      <link>http://localhost:1313/tags/night/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/night/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

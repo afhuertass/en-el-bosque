@@ -1,0 +1,15 @@
+{
+  "name": "en-el-bosque",
+  "compatibility_date": "2026-02-21",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": false
+  },
+  "build": {
+    "command": "chmod a+x build.sh && ./build.sh",
+  },
+    "workers_dev": true,
+  "preview_urls": true
+}
