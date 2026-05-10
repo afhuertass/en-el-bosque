@@ -5,13 +5,13 @@
       {{ with .Site.Params.subtitle }}<p class="site-subtitle">{{ . }}</p>{{ end }}
     </div>
     <nav class="site-nav">
-      <a href="{{ "/" | relURL }}">Stories</a>
+      <a href="{{ "/" | relURL }}">Historias</a>
       {{ with .Site.Menus.main }}
         {{ range . }}
           <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
       {{ end }}
-      <a href="{{ "/about" | relURL }}">About</a>
+      <a href="{{ "/about" | relURL }}">Acerca de</a>
     </nav>
   </div>
   <div class="header-ornament">❧</div>
