@@ -1,0 +1,458 @@
+/* ============================================================
+   BOHÈME — a literary magazine theme for Hugo
+   ============================================================ */
+
+:root {
+  --parchment:     #faf6ee;
+  --parchment-mid: #f0e9d8;
+  --parchment-dark:#e4d9c3;
+  --ink:           #1e1510;
+  --ink-mid:       #3b2e22;
+  --ink-light:     #6b5744;
+  --rust:          #7a3b1e;
+  --rust-light:    #a0522d;
+  --gold:          #b8963e;
+  --gold-light:    #d4a845;
+  --border:        #cec0a5;
+
+  --font-serif:    'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-display:  'Playfair Display', Georgia, serif;
+  --font-ornament: 'Cormorant Upright', serif;
+
+  --measure:       68ch;
+  --measure-wide:  90ch;
+}
+
+/* ---- Reset & base ---------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--parchment);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  line-height: 1.75;
+  min-height: 100vh;
+  /* subtle aged-paper texture via CSS */
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+/* ---- Typography ------------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+a {
+  color: var(--rust);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover { color: var(--rust-light); text-decoration: underline; }
+
+p { margin-bottom: 1.4em; }
+
+blockquote {
+  border-left: 3px solid var(--gold);
+  padding: 0.5em 1.5em;
+  margin: 2em 0;
+  font-style: italic;
+  color: var(--ink-mid);
+}
+blockquote cite {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.85em;
+  font-style: normal;
+  color: var(--ink-light);
+}
+
+/* ---- Layout ---------------------------------------------- */
+
+.site-main {
+  max-width: var(--measure-wide);
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+}
+
+/* ---- Header ---------------------------------------------- */
+
+.site-header {
+  text-align: center;
+  padding: 3rem 2rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+.site-brand {
+  margin-bottom: 1.2rem;
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--ink);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-title:hover { color: var(--rust); text-decoration: none; }
+
+.site-subtitle {
+  font-family: var(--font-ornament);
+  font-size: 0.95rem;
+  color: var(--ink-light);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 0.3rem;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: var(--font-ornament);
+}
+.site-nav a { color: var(--ink-mid); }
+.site-nav a:hover { color: var(--rust); text-decoration: none; }
+
+.header-ornament {
+  font-size: 1.4rem;
+  color: var(--gold);
+  margin-top: 1rem;
+  display: block;
+  line-height: 1;
+}
+
+/* ---- Home intro ------------------------------------------ */
+
+.home-intro {
+  max-width: var(--measure);
+  margin: 3rem auto 2.5rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--ink-mid);
+  padding: 0 1rem;
+}
+
+/* ---- Story cards (list) ---------------------------------- */
+
+.stories-list {
+  max-width: var(--measure);
+  margin: 0 auto;
+}
+
+.story-card {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--parchment-dark);
+  position: relative;
+}
+.story-card:last-child { border-bottom: none; }
+
+.story-card-meta {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  font-family: var(--font-ornament);
+  margin-bottom: 0.5rem;
+}
+.story-card-meta time { margin-right: 0.8rem; }
+.story-author::before { content: '·  '; }
+
+.story-card-title {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.4rem;
+}
+.story-card-title a { color: var(--ink); }
+.story-card-title a:hover { color: var(--rust); text-decoration: none; }
+
+.story-genre {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rust);
+  font-family: var(--font-ornament);
+  margin-bottom: 0.8rem;
+}
+
+.story-card-summary {
+  color: var(--ink-mid);
+  font-size: 0.97rem;
+  margin-bottom: 1rem;
+}
+
+.read-link {
+  font-family: var(--font-ornament);
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--rust);
+}
+
+.no-stories {
+  text-align: center;
+  font-style: italic;
+  color: var(--ink-light);
+  padding: 3rem 0;
+}
+
+/* ---- Single story page ----------------------------------- */
+
+.story-single {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.story-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.story-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  line-height: 1.15;
+}
+
+.story-subtitle {
+  font-family: var(--font-ornament);
+  font-size: 1.1rem;
+  color: var(--ink-mid);
+  font-style: italic;
+  margin-bottom: 0.8rem;
+}
+
+.story-meta {
+  font-family: var(--font-ornament);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.story-divider {
+  font-size: 2rem;
+  color: var(--gold);
+  line-height: 1;
+}
+
+/* Story body typography */
+.story-body {
+  font-size: 1.08rem;
+  line-height: 1.85;
+  color: var(--ink);
+}
+
+/* Drop cap on the first paragraph */
+.story-body > p:first-child::first-letter {
+  font-family: var(--font-display);
+  font-size: 4.2em;
+  font-weight: 700;
+  float: left;
+  line-height: 0.75;
+  margin: 0.08em 0.08em 0 0;
+  color: var(--rust);
+  padding-top: 0.05em;
+}
+
+.story-body p {
+  margin-bottom: 1.5em;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Scene break */
+.story-body hr {
+  border: none;
+  text-align: center;
+  margin: 2.5em 0;
+  color: var(--gold);
+}
+.story-body hr::before {
+  content: '· · ·';
+  letter-spacing: 0.6em;
+  font-size: 1.1rem;
+  color: var(--gold);
+}
+
+.story-body h2 {
+  font-size: 1.3rem;
+  margin: 2.5em 0 0.8em;
+  font-style: italic;
+}
+
+.story-body em { font-style: italic; }
+.story-body strong { font-weight: 600; }
+
+/* Story footer */
+.story-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.story-end-mark {
+  text-align: center;
+  color: var(--ink-light);
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  margin-bottom: 2rem;
+  font-family: var(--font-ornament);
+}
+
+.story-tags {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.tag {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: var(--font-ornament);
+  border: 1px solid var(--border);
+  padding: 0.2em 0.7em;
+  border-radius: 2px;
+  color: var(--ink-light);
+}
+
+.story-nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-ornament);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+.story-nav a { color: var(--rust); }
+
+/* ---- Footer ---------------------------------------------- */
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+}
+
+.footer-ornament {
+  font-size: 1.5rem;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.footer-text {
+  font-family: var(--font-ornament);
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 0;
+}
+
+/* ---- About / generic pages ------------------------------- */
+
+.list-page,
+.page-content {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.list-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.list-header h1 {
+  font-size: 2.2rem;
+  font-style: italic;
+}
+
+/* ---- Contributors ---------------------------------------- */
+
+.contributors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 2.5rem 2rem;
+  margin-top: 2.5rem;
+}
+
+.contributor {
+  text-align: center;
+}
+
+.contributor-photo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--border);
+  transition: border-color 0.2s;
+}
+.contributor-photo:hover { border-color: var(--gold); }
+
+.contributor-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.contributor-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 0.4rem;
+  color: var(--ink);
+}
+
+.contributor-bio {
+  font-size: 0.82rem;
+  color: var(--ink-light);
+  line-height: 1.55;
+  margin-bottom: 0;
+}
+
+/* ---- Responsive ------------------------------------------ */
+
+@media (max-width: 640px) {
+  html { font-size: 16px; }
+  .site-main { padding: 1.5rem 1.25rem 3rem; }
+  .site-header { padding: 2rem 1.25rem 1.2rem; }
+  .site-nav { gap: 1.2rem; font-size: 0.8rem; }
+  .story-body > p:first-child::first-letter { font-size: 3.5em; }
+}
+
+/* ---- Scrollbar ------------------------------------------- */
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--parchment-mid); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-light); }

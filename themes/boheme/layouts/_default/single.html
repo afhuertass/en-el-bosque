@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="story-single">
+
+  <header class="story-header">
+    {{ with .Params.genre }}<span class="story-genre">{{ . }}</span>{{ end }}
+    <h1 class="story-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="story-subtitle">{{ . }}</p>{{ end }}
+    <div class="story-meta">
+      {{ with .Params.author }}<span class="story-author">by {{ . }}</span>{{ end }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2006" }}</time>
+      {{ with .Params.readingTime }}<span class="reading-time">{{ . }} min read</span>{{ end }}
+    </div>
+    <div class="story-divider">❦</div>
+  </header>
+
+  <div class="story-body">
+    {{ .Content }}
+  </div>
+
+  <footer class="story-footer">
+    <div class="story-end-mark">— ∎ —</div>
+    {{ with .Params.tags }}
+    <div class="story-tags">
+      {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+    <nav class="story-nav">
+      {{ with .PrevInSection }}
+        <a class="story-nav-prev" href="{{ .Permalink }}">&larr; {{ .Title }}</a>
+      {{ end }}
+      {{ with .NextInSection }}
+        <a class="story-nav-next" href="{{ .Permalink }}">{{ .Title }} &rarr;</a>
+      {{ end }}
+    </nav>
+  </footer>
+
+</article>
+{{ end }}

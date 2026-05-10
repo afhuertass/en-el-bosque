@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="home-page">
+
+  {{ with .Site.Params.homeIntro }}
+  <div class="home-intro">
+    <p>{{ . | markdownify }}</p>
+  </div>
+  {{ end }}
+
+  <section class="stories-list">
+    {{ $stories := where .Site.RegularPages "Section" "stories" }}
+    {{ range $stories.ByDate.Reverse }}
+    <article class="story-card">
+      <div class="story-card-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.author }}<span class="story-author">by {{ . }}</span>{{ end }}
+      </div>
+      <h2 class="story-card-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      {{ with .Params.genre }}<span class="story-genre">{{ . }}</span>{{ end }}
+      <div class="story-card-summary">
+        {{ with .Description }}
+          <p>{{ . }}</p>
+        {{ else }}
+          <p>{{ .Summary }}</p>
+        {{ end }}
+      </div>
+      <a href="{{ .Permalink }}" class="read-link">Read &rarr;</a>
+    </article>
+    {{ else }}
+    <p class="no-stories">No stories yet. The first page is blank — and waiting.</p>
+    {{ end }}
+  </section>
+
+</div>
+{{ end }}

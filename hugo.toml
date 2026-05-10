@@ -1,0 +1,16 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Taller Literario - En el Bosque"
+theme = "boheme"
+
+[params]
+  subtitle = "Literatura desde Finlandia"
+  description = "Taller literario de escritores y lectores aficionados en Helsinki."
+  homeIntro = "Un lugar para cuentos, novelas, discusiones y la ocasional cerveza."
+  footerText = "From Finland, with Love"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false

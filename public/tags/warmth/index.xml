@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Warmth on Taller Literario - En el bosque</title>
+    <link>http://localhost:1313/tags/warmth/</link>
+    <description>Recent content in Warmth on Taller Literario - En el bosque</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/warmth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuesday Bread</title>
+      <link>http://localhost:1313/stories/tuesday-bread/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stories/tuesday-bread/</guid>
+      <description>&lt;p&gt;She always came on Tuesdays, at six in the morning, when the oven was barely done with its first batch and the street outside still smelled more like night than day.&lt;/p&gt;&#xA;&lt;p&gt;Roque had been running the bakery for twenty-two years. He could tell you the order of every regular customer — who wanted their bread warm, who wanted it cool, who would linger and who wouldn&amp;rsquo;t — and he had mapped this woman into his mornings so completely that on the rare Tuesday she didn&amp;rsquo;t come, the whole day felt slightly wrong, like a sentence with the last word missing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

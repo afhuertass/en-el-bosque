@@ -1,0 +1,8 @@
+[theme]
+  name = "Bohème"
+  description = "A literary magazine theme for short fiction. Warm parchment tones, bookish typography."
+  homepage = ""
+  min_version = "0.120.0"
+
+  [theme.author]
+    name = "El Taller"

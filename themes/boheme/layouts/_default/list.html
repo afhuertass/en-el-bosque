@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="list-page">
+  <header class="list-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="list-description">{{ . }}</p>{{ end }}
+  </header>
+  <section class="stories-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="story-card">
+      <div class="story-card-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.author }}<span class="story-author">by {{ . }}</span>{{ end }}
+      </div>
+      <h2 class="story-card-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      {{ with .Params.genre }}<span class="story-genre">{{ . }}</span>{{ end }}
+      <div class="story-card-summary">
+        {{ with .Description }}<p>{{ . }}</p>{{ else }}<p>{{ .Summary }}</p>{{ end }}
+      </div>
+      <a href="{{ .Permalink }}" class="read-link">Read &rarr;</a>
+    </article>
+    {{ end }}
+  </section>
+</div>
+{{ end }}

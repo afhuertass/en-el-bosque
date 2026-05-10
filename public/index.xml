@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taller Literario - En el Bosque</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Taller Literario - En el Bosque</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Last Lamp</title>
+      <link>http://localhost:1313/stories/the-last-lamp/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stories/the-last-lamp/</guid>
+      <description>&lt;p&gt;The lamp on Calle Miraflores had been broken for eleven years. Everyone in the neighbourhood knew this. They had arranged their habits around its absence — walking faster past the pharmacy, keeping voices lower near the old pharmacy&amp;rsquo;s locked gate, trusting the orange glow from the distant avenue to be enough.&lt;/p&gt;&#xA;&lt;p&gt;Then one Tuesday in March, it came on.&lt;/p&gt;&#xA;&lt;p&gt;Sebastián noticed it first because he was the only one awake at that hour, sitting on his balcony with a glass of something cold and a headache he hadn&amp;rsquo;t earned. The light was amber, slightly unsteady, the way old gas lamps used to breathe. He thought he was imagining things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Acerca de</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;El Taller&lt;/strong&gt; — &lt;em&gt;En el bosque&lt;/em&gt; — Nace por iniciativa de un grupo de imigrantes aficionados a la literatura en Helsinki, Finlandia. Bajo la guia del escritor Serio Sanchez.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;participantes&#34;&gt;Participantes&lt;/h2&gt;&#xA;&lt;div class=&#34;contributors&#34;&gt;&#xA;  &lt;div class=&#34;contributor&#34;&gt;&#xA;    &lt;div class=&#34;contributor-photo&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/img/contributors/sergio-sanches.svg&#34; alt=&#34;Sergio Sanches&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;h3 class=&#34;contributor-name&#34;&gt;Sergio Sanches&lt;/h3&gt;&#xA;    &lt;p class=&#34;contributor-bio&#34;&gt;Placeholder — a sentence or two about Sergio, what he writes, where he&#39;s from.&lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;contributor&#34;&gt;&#xA;    &lt;div class=&#34;contributor-photo&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/img/contributors/andres-huertas.svg&#34; alt=&#34;Andres Huertas&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;h3 class=&#34;contributor-name&#34;&gt;Andres Huertas&lt;/h3&gt;&#xA;    &lt;p class=&#34;contributor-bio&#34;&gt;Placeholder — a sentence or two about Andres, what he writes, where he&#39;s from.&lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;contributor&#34;&gt;&#xA;    &lt;div class=&#34;contributor-photo&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/img/contributors/daniel-flores.svg&#34; alt=&#34;Daniel Flores&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;h3 class=&#34;contributor-name&#34;&gt;Daniel Flores&lt;/h3&gt;&#xA;    &lt;p class=&#34;contributor-bio&#34;&gt;Placeholder — a sentence or two about Daniel, what he writes, where he&#39;s from.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

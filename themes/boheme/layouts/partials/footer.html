@@ -1,0 +1,7 @@
+<footer class="site-footer">
+  <div class="footer-ornament">⁂</div>
+  <p class="footer-text">
+    {{ .Site.Title }} · {{ now.Format "2006" }}
+    {{ with .Site.Params.footerText }} · {{ . }}{{ end }}
+  </p>
+</footer>
